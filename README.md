@@ -1,7 +1,7 @@
 # Description
 Simple PHP web that can be hosting on Apache distribution and connecting with MySql Database. 
 
-# System description
+## System description
 Our system is planned to implement the following pages, components and functions for front-end and back-end. The detailed functional requirement would be examined in later section of the report
 1.	Home page\
 --- View\
