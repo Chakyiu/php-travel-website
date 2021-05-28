@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-image: url(../src/image/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rowbody {
+    background-image: url(../src/image/row.jpg);
+}
+
+.navbar-default .navbar-brand:hover {
+    cursor: default;
+    color: #1688C0;
+}
+
+/* tab */
+
+div.bhoechie-tab-container {
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 0 !important;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-left: 50px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    background-clip: padding-box;
+    opacity: 0.97;
+    filter: alpha(opacity=97);
+}
+
+div.bhoechie-tab-menu {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+div.bhoechie-tab-menu div.list-group {
+    margin-bottom: 0;
+}
+
+div.bhoechie-tab-menu div.list-group>a {
+    margin-bottom: 0;
+}
+
+div.bhoechie-tab-menu div.list-group>a .glyphicon, div.bhoechie-tab-menu div.list-group>a .fa {
+    color: #1688C0;
+}
+
+div.bhoechie-tab-menu div.list-group>a:first-child {
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+
+div.bhoechie-tab-menu div.list-group>a:last-child {
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+
+div.bhoechie-tab-menu div.list-group>a.active, div.bhoechie-tab-menu div.list-group>a.active .glyphicon, div.bhoechie-tab-menu div.list-group>a.active .fa {
+    background-color: #1688C0;
+    background-image: #1688C0;
+    color: #ffffff;
+}
+
+div.bhoechie-tab-menu div.list-group>a.active:after {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    margin-top: -13px;
+    border-left: 0;
+    border-bottom: 13px solid transparent;
+    border-top: 13px solid transparent;
+    border-left: 10px solid #1688C0;
+}
+
+div.bhoechie-tab-content {
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active) {
+    display: none;
+}
+
+div.bhoechie-tab {
+    border-left: 1px solid #1688C0;
+}
+
+/* END tab */
+
+.shadow {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.trbox {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.trinput {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.half {
+    position: relative;
+}
+
+.font {
+    font-size: 6em;
+}
+
+.half:after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    background: white;
+    width: 50%;
+    height: 100%;
+    left: 47%;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    /* background-color: rgba(1, 210, 249, 0.1); */
+    /* opacity: 1; */
+}
